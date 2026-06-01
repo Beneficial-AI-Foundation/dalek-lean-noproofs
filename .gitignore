@@ -1,0 +1,54 @@
+# Rust
+*/target/*
+target
+Cargo.lock
+*/Cargo.lock
+build*.txt
+*~
+\#*
+.\#*
+*.swp
+*.orig
+*.bak
+*.s
+
+# Lean
+.lake
+
+# Aeneas
+aeneas
+.aeneas
+*.llbc
+.logs
+Curve25519Dalek/FunsExternal_Template.lean
+Curve25519Dalek/TypesExternal_Template.lean
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Generated plots
+verification_progress.png
+verification_progress.svg
+
+# Generated dependency analysis
+deps.json
+
+# Temporary files
+.tmp/
+
+# VitePress
+node_modules
+site/.vitepress/dist
+site/.vitepress/cache
+site/.env
+.env
+site/public/doc
+
+.direnv
+.DS_Store
+
+*.jsonl
+full_proof_recovery_benchmark
+full_proof_recovery_benchmark_back
